@@ -1,0 +1,60 @@
+body {
+    background-color: aliceblue;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none; /* get rid of bullet points on side of list items */
+}
+
+
+#input-task {
+    /* outline: 0; */
+    background-color: transparent;
+    border: 0;
+    border-bottom: 3px solid darkolivegreen;
+    margin-right: 10px;
+}
+
+
+.add-task-button {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 10px 25px;
+    font-family: inherit;
+    border-radius: 5%;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: sandybrown;
+}
+
+.delete-btn {
+    width: 15px;
+    height: 15px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 0;
+    line-height: 0;
+    outline: 0;
+    border: 0;
+    transform: rotate(45deg);
+}
+
+
+input[type = checkBox]:checked + span {
+    text-decoration: line-through;
+}
